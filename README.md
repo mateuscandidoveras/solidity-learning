@@ -1,20 +1,29 @@
-# Solidity Smart Contract – String Storage Example
+# Solidity Learning Repository 🧠
 
-This repository contains a simple Solidity smart contract used to store and update a string value on the Ethereum blockchain. It's designed for learning purposes and can serve as a starting point for more advanced projects.
+This repository contains a collection of smart contracts written in Solidity. Each contract is focused on demonstrating specific features of the language and is documented for clarity and future reference.
 
-## 📄 Contract Overview
+## 📁 Contracts
 
-### `MyContract.sol`
+| Contract            | Description                                 |
+|---------------------|---------------------------------------------|
+| `MyContract.sol`     | A simple example of storing and updating a string. |
+| *(More coming soon)* | Add your next contracts here...            |
 
-A minimal contract that demonstrates:
+All source files are located in the [`/contracts`](./contracts/) directory.
 
-- Declaring a public string variable
-- Initializing it with a default value
-- Updating the value through a public function
+## 🧪 How to Use (Remix IDE)
 
-```solidity
-string public ourString = "Hello World";
+1. Open [Remix IDE](https://remix.ethereum.org/)
+2. Create a new file and paste the contents of any `.sol` file from this repo
+3. Compile the contract (e.g., with Solidity v0.8.14)
+4. Deploy and interact using the JavaScript VM
 
-function updateOurString(string memory _updateString) public {
-    ourString = _updateString;
-}
+## ✍️ Conventions
+
+- Contracts are written using Solidity `^0.8.x`
+- Each file includes inline documentation and comments
+- Function and variable names follow camelCase
+- Only core language features are used (no external libraries for now)
+
+## 🗂️ Project Structure
+
