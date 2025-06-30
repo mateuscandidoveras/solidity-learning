@@ -1,12 +1,16 @@
-# MyContract – Simple String Storage in Solidity
+# Solidity Smart Contract – String Storage Example
 
-This project contains a basic example of a Solidity smart contract that stores a string on the Ethereum blockchain. It's designed to demonstrate how public state variables and simple update functions work in smart contracts.
+This repository contains a simple Solidity smart contract used to store and update a string value on the Ethereum blockchain. It's designed for learning purposes and can serve as a starting point for more advanced projects.
 
-## 🔧 Contract Details
+## 📄 Contract Overview
 
-The contract defines a single public string variable called `ourString`, which is initialized with `"Hello World"`. The value can be updated by calling the `updateOurString()` function with a new string.
+### `MyContract.sol`
 
-### Contract: `MyContract.sol`
+A minimal contract that demonstrates:
+
+- Declaring a public string variable
+- Initializing it with a default value
+- Updating the value through a public function
 
 ```solidity
 string public ourString = "Hello World";
