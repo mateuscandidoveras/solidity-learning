@@ -6,3 +6,11 @@ This project contains a basic example of a Solidity smart contract that stores a
 
 The contract defines a single public string variable called `ourString`, which is initialized with `"Hello World"`. The value can be updated by calling the `updateOurString()` function with a new string.
 
+### Contract: `MyContract.sol`
+
+```solidity
+string public ourString = "Hello World";
+
+function updateOurString(string memory _updateString) public {
+    ourString = _updateString;
+}
