@@ -20,10 +20,8 @@ All source files are located in the [`/contracts`](./contracts/) directory.
 
 ## ✍️ Conventions
 
-- Contracts are written using Solidity `^0.8.x`
+- Contracts are written using Solidity `^0.8.14`
 - Each file includes inline documentation and comments
 - Function and variable names follow camelCase
 - Only core language features are used (no external libraries for now)
-
-## 🗂️ Project Structure
 
